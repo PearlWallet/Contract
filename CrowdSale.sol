@@ -120,7 +120,7 @@ contract PearlCrowdsale is Owned {
     ) public 
     {
         startTime = _startTime;
-        deadline = _startTime + (1 * 1 days);
+        deadline = _startTime + (1 * 33 days);
         price = _price;
         pltToken = PltToken(pltTokenContractAddress);
     }
